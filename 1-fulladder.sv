@@ -1,5 +1,6 @@
 //testbench
 module fa_tb;
+  
   reg a,b,cin;
   wire s,c;
   fa fa1(a,b,cin,s,c);
